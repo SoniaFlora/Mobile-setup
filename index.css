@@ -1,0 +1,448 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Poppins&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: block;
+  width: 400px;
+  margin: auto;
+  height: 4910px;
+  position: relative;
+  background: #fff;
+}
+
+.geomtry2 {
+  position: absolute;
+  width: 100%;
+  height: 160px;
+  left: 0;
+  top: 472px;
+}
+
+.menu {
+  top: 19px;
+  right: 10px;
+  width: 20px;
+  height: 14px;
+  position: absolute;
+}
+
+.title {
+  position: absolute;
+  width: 220px;
+  height: 100px;
+  left: 16px;
+  top: 104px;
+  font-family: 'Playfair Display', serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 100%;
+  color: #1a2236;
+}
+
+.paragraph {
+  position: absolute;
+  width: 300px;
+  height: 126px;
+  left: 16px;
+  top: 224px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.1rem;
+  line-height: 21px;
+  letter-spacing: -0.01em;
+  color: #1a2236;
+}
+
+.abtcontent {
+  position: absolute;
+  width: 300px;
+  height: 126px;
+  left: 16px;
+  top: 2932px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.1rem;
+  line-height: 21px;
+  letter-spacing: -0.01em;
+  color: #1a2236;
+}
+
+.bttn {
+  width: 288px;
+  height: 50px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: center;
+  font-style: normal;
+  position: absolute;
+  box-sizing: border-box;
+  inset: 390px auto 0 45px;
+  background-color: #1a2236;
+  font-family: 'Poppins', serif;
+}
+
+.bttn:hover {
+  cursor: pointer;
+  color: #1a2236;
+  background-color: #fff;
+  border: 1px solid #1a2236;
+}
+
+.bttn:active {
+  cursor: pointer;
+  color: #1a2236;
+  background-color: #fff;
+  border: 2px solid #1a2236;
+}
+
+.spacer {
+  width: 100%;
+  height: 200px;
+  inset: 450px 0 0 0;
+  position: absolute;
+  background-repeat: no-repeat;
+  background-image: url('./images/image_geometry_2.png');
+  background-size: cover;
+}
+
+.pHeader {
+  top: 672px;
+  left: 16px;
+  width: 181px;
+  height: 50px;
+  font-size: 50px;
+  color: #1a2236;
+  font-weight: 400;
+  line-height: 100%;
+  position: absolute;
+  font-style: normal;
+  font-family: 'Playfair Display', serif;
+}
+
+.abHeader {
+  top: 2862px;
+  left: 16px;
+  width: 181px;
+  height: 50px;
+  font-size: 50px;
+  color: #1a2236;
+  font-weight: 400;
+  line-height: 100%;
+  position: absolute;
+  font-style: normal;
+  font-family: 'Playfair Display', serif;
+}
+
+.pList {
+  left: 20px;
+  top: 754px;
+  width: 320px;
+  display: grid;
+  position: absolute;
+  grid-template-columns: 1fr;
+}
+
+.p {
+  gap: 0.5rem;
+  width: 320px;
+  height: 342px;
+  display: flex;
+  background: #1a2236;
+  flex-direction: column;
+}
+
+.tags {
+  display: flex;
+  gap: 0.2rem;
+  margin-left: 10px;
+}
+
+.tag {
+  font-family: 'Poppins', serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 10.3334px;
+  line-height: 80%;
+  color: #1a2236;
+  padding: 1rem;
+  background: #98dede;
+}
+
+h3 {
+  width: 264px;
+  height: 16px;
+  padding-left: 10px;
+  font-family: 'Poppins', serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 80%;
+  color: #fff;
+}
+
+.see {
+  width: 178px;
+  height: 44px;
+  border: 1px solid #fff;
+  position: absolute;
+  background-repeat: no-repeat;
+  background-image: url('./images/image_geometry_2.png');
+  background-size: cover;
+}
+
+.bttnp {
+  width: 208px;
+  height: 50px;
+  margin-left: 10px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: center;
+  font-style: normal;
+  box-sizing: border-box;
+  inset: 390px auto 0 45px;
+  background-color: #1a2236;
+  font-family: 'Poppins', serif;
+  border: 1px solid #fff;
+}
+
+.bttnp:hover {
+  cursor: pointer;
+  color: #1a2236;
+  background-color: #fff;
+  border: 1px solid #1a2236;
+}
+
+.bttnp:active {
+  cursor: pointer;
+  color: #1a2236;
+  background-color: #fff;
+  border: 2px solid #1a2236;
+}
+
+.bttncv {
+  background-repeat: no-repeat;
+  width: 288px;
+  height: 50px;
+  color: #fff;
+  left: 16px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: center;
+  font-style: normal;
+  box-sizing: border-box;
+  inset: 390px auto 0 45px;
+  background-color: #1a2236;
+  font-family: 'Poppins', serif;
+}
+
+.bttncv:hover {
+  cursor: pointer;
+  color: #1a2236;
+  background-color: #fff;
+  border: 1px solid #1a2236;
+}
+
+.bttncv:active {
+  cursor: pointer;
+  color: #1a2236;
+  background-color: #fff;
+  border: 2px solid #1a2236;
+}
+
+.langblock {
+  position: absolute;
+  width: 289px;
+  height: 289px;
+  left: 16px;
+  top: 3180px;
+  background-color: #1c528a;
+  background-image: url('./images/ic_languages_mob.png');
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  padding-left: 72px;
+  padding-top: 26px;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.block h3 {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  padding-left: 0;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 30px;
+  color: #fff;
+}
+
+.frmblock {
+  position: absolute;
+  width: 289px;
+  height: 289px;
+  left: 16px;
+  top: 3485px;
+  background-color: #e2505c;
+  background-image: url('./images/ic_framework.png');
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  padding-left: 72px;
+  padding-top: 26px;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.skillblock {
+  position: absolute;
+  width: 289px;
+  height: 289px;
+  left: 16px;
+  top: 3790px;
+  background-color: #febf52;
+  background-image: url('./images/ic_skills.png');
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  padding-left: 72px;
+  padding-top: 26px;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.skillblock ul {
+  padding-top: 40px;
+}
+
+.blcimages {
+  position: absolute;
+  width: 102px;
+  height: 102px;
+  left: 203px;
+  top: 3367px;
+  background: #547da7;
+}
+
+.abget {
+  position: absolute;
+  width: 249px;
+  height: 100px;
+  left: 16px;
+  top: 4235px;
+  font-family: 'Playfair Display', serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 100%;
+  color: #1a2236;
+}
+
+.geomtry3 {
+  position: absolute;
+  width: 111px;
+  height: 74.02px;
+  top: 4129px;
+}
+
+.paragraph1 {
+  position: absolute;
+  width: 288px;
+  height: 63px;
+  left: 16px;
+  top: 4305px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.1rem;
+  line-height: 21px;
+  letter-spacing: -0.01em;
+  color: #1a2236;
+}
+
+.text {
+  position: absolute;
+  width: 288px;
+  height: 52px;
+  left: 16px;
+  top: 4404px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 15px;
+}
+
+.email {
+  position: absolute;
+  width: 288px;
+  height: 52px;
+  left: 16px;
+  top: 4460px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 15px;
+  color: #7d7c84;
+}
+
+.message {
+  position: absolute;
+  width: 288px;
+  height: 112px;
+  left: 16px;
+  top: 4520px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #7d7c84;
+}
+
+.submit {
+  position: absolute;
+  width: 288px;
+  height: 44px;
+  left: 16px;
+  top: 4652px;
+  background: #1a2236;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #fff;
+}
+
+.img3 {
+  background-image: url('./images/image_geometry_3.svg');
+  width: 200px;
+  height: 100px;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 4100px;
+}
